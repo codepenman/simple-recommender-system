@@ -23,18 +23,18 @@
       <scope>test</scope>
     </dependency>
     
+    <dependency>
+      <groupId>org.apache.mahout</groupId>
+      <artifactId>mahout-core</artifactId>
+      <version>0.9</version>
+    </dependency>
+    
 	<dependency>
   		<groupId>org.apache.spark</groupId>
   		<artifactId>spark-mllib_2.10</artifactId>
   		<version>1.3.0</version>
   	</dependency>
   	
-    <dependency>
-      <groupId>org.apache.mahout</groupId>
-      <artifactId>mahout-core</artifactId>
-      <version>0.9</version>
-    </dependency>
-  	 
   	<dependency>
       <groupId>org.grouplens.lenskit</groupId>
       <artifactId>lenskit-core</artifactId>
