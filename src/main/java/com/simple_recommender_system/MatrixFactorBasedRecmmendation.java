@@ -225,7 +225,7 @@ public class MatrixFactorBasedRecmmendation {
         //get top 5 from the recommended products.
         recommendations = recommendations.subList(0, 5);
         for (Rating movie: recommendations){
-	    	System.out.println(movie.toString());
+	    	System.out.println(products.get(movie.product()));
 	    }
 	    
 	    
