@@ -42,11 +42,6 @@ public class UserBasedRecommendationSystem {
 			
 			long[] similarUserIds = recommender.mostSimilarUserIDs(13, 5);
 			
-			/*Akshay
-			 * Parsing Movied Id vs Movie Name file and creating a Hash Map so the we can output
-			 * movie names instead of the movie Ids
-			 * */
-			
 			String csvFile = "resources/data_sets/movieid-movie.csv";
 			BufferedReader br = null;
 			String line = "";
